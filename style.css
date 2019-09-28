@@ -1,0 +1,88 @@
+body{
+	background-color: #000;
+}
+#jogo{
+	position: relative;
+	top: 150px;
+	width: 360px;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #880000;
+	padding: 10px;
+	border-radius: 5px;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0px 0px 10px white;
+}
+#jogo div{
+	width: 100px;
+	height: 100px;
+	background-color: #ff0000;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: arial;
+	font-size: 3em;
+	margin: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	user-select: none;
+	transition-duration: .8s;
+}
+#jogo div:hover{
+	background-color: yellow;
+}
+.titulo{
+	width: 90vw !important;
+	position: absolute;
+	top: -150px;
+	background-color: transparent !important;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: auto !important;
+
+}
+.placar{
+	box-shadow: 0px 0px 10px white;
+	width: 200px !important;
+	height: 200px !important;
+	padding: 20px 50px 20px 50px;
+	position: absolute;
+	flex-direction: column;
+	top: 0px;
+	left: -400px;
+	background-color: transparent !important;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: #880000 !important;
+	cursor: auto !important;
+}
+.placar h1{
+	padding: 10px;
+	border-radius: 10px;
+	width: 100%;
+	background-color: #ff0000 !important;
+	position: relative;
+	top: 0px;
+	font-size: .5em;
+}
+.placar h3{
+	font-size: .5em;
+}
+button{
+	position: absolute;
+	top: 0px;
+	right: -300px;
+	padding: 20px;
+	border-radius: 5px;
+	border: 2px solid white;
+	background-color: red;
+	box-shadow: 0px 0px 10px white;
+	color: white;
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	user-select: none;
+}
